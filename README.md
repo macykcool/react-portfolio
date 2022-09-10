@@ -17,12 +17,14 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 
 ## Demo Preview
-![search demo](./gif/report.png)
+![search demo](./gif/portfo.gif)
 
 ## Github Repository
 https://github.com/macykcool/react-portfolio
 
 ## Deployed
+It is pulling me readme. You may have to install and npm start
+
 
 
 ## Made with ❤️️ by Macy Mannix
