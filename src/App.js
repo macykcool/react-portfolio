@@ -19,7 +19,7 @@ function App() {
     switch (currentTab) {
       case "about":
         return <About />
-      case "Portfolio":
+      case "portfolio":
         return <Portfolio />
       case "contact":
         return <Contact />
