@@ -8,9 +8,9 @@ function Resume() {
                 <h1>My Resume</h1>
             </div>
             <div className="center">
-                {/* <a href={require("")} download>
-                    <h3 id="">Resume PDF</h3>
-                </a> */}
+                <a href={require("../../assets/resume/Resume.pdf")} download>
+                    <h3 id="resume-pdf">Resume PDF</h3>
+                </a>
             </div>
             <div>
                 <h5 className="center" >Education</h5>
