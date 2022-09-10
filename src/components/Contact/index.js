@@ -4,7 +4,7 @@ function Projects() {
   return (
     <section >
     <div className="center">
-    hello
+    hello again 
       </div>
     </section>
   );
