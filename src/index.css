@@ -315,3 +315,7 @@ a {
   justify-content: center;
 }
 
+.card-image {
+	max-width: 300px;
+	max-height: 150px;
+}
