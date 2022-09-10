@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 
 //importing sections from components
 import About from "./components/About";
@@ -12,7 +12,7 @@ import Header from "./components/Header";
 
 export default function App() {
   const [activePage, active] = useState("About");
-  //rendering different sections while about page is not active
+
   function display() {
     switch (activePage) {
       case "About":
