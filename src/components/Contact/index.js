@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { isValidEmail } from '../../utils/helpers';
 
 function Contact() {

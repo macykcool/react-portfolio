@@ -1,41 +1,50 @@
-import React, { useState } from "react";
+
+
+import React, { useState } from 'react';
 import "./App.css";
 
 
 //importing sections from components
 import About from "./components/About";
-import Project from "./components/Project";
+import Portfolio from "./components/Projects";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
-export default function App() {
-  const [activePage, active] = useState("About");
+function App() {
+  const [currentTab, setCurrentTab] = useState("about");
 
-  function display() {
-    switch (activePage) {
-      case "About":
-        return <About />;
+  const tabRender = () => {
+    switch (currentTab) {
+      case "about":
+        return <About />
       case "Portfolio":
-        return <Project />;
-      case "Contact":
-        return <Contact />;
-      case "Resume":
-        return <Resume />;
-
+        return <Portfolio />
+      case "contact":
+        return <Contact />
+      case "resume":
+        return <Resume />
       default:
-        return <About />;
+        return null;
     }
-  }
+  };
 
   return (
     <div>
-      <Header setPage={active} />
-      <main className="App" expand="lg">
-        {display()}
-      </main>
-      <Footer />
+      <div>
+        <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
+      </div>
+      <div>
+        <main>{tabRender()}</main>
+      </div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
+
   );
 }
+
+export default App;
+
