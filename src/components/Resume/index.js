@@ -17,8 +17,7 @@ function Resume() {
                 <ol>
                     <li>Trilogy Full Stack Web Development Bootcamp</li>
                     <li>BSBA Economics and Finance</li>
-                    <li>School of Hard Knocks</li>
-                    <li>WUTSA MATTA U</li>
+                    
                 </ol>
             </div>
         </section>
