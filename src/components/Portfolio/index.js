@@ -4,8 +4,11 @@ function Project() {
   return(
       <section>
           <div className="center">
-        Fan 
-    
+        Fan Page 
+        <a href="https://macykcool.github.io/fanpage/">
+            <img src="./assets/images/chris.jpg" alt="preview of chris isaak fanpage" />
+            </a>
+            
           </div>
       </section>
   )
