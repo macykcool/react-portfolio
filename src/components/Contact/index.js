@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function Projects() {
   return (
-    <section className='my-5'>
+    <section >
     <div className="center">
     
       </div>
