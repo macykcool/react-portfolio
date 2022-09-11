@@ -24,7 +24,7 @@ https://github.com/macykcool/react-portfolio
 
 ## Deployed
 It is pulling me readme. You may have to install and npm start
-
+https://macykcool.github.io/react-portfolio/
 
 
 ## Made with ❤️️ by Macy Mannix
