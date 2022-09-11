@@ -20,7 +20,10 @@ SO THAT I can assess whether they're a good candidate for an open position
 ![search demo](./gif/portfo.gif)
 
 ## Github Repository
-https://github.com/macykcool/react-portfolio
+https://github.com/macykcool/react-portfolio/tree/Readme
+
+I am unable to merge my original main branch after deploying gh-pages.
+This branch is what was locally on main until I was able to deploy. 
 
 ## Deployed
 https://macykcool.github.io/react-portfolio/
